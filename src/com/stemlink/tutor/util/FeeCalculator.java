@@ -1,4 +1,4 @@
-package com.stemlink.tutor;
+package com.stemlink.tutor.util;
 
 public class FeeCalculator {
 
@@ -23,6 +23,7 @@ public class FeeCalculator {
     }
 
     public static double calculatePlatformFee(double baseFee) {
+
         return baseFee * PLATFORM_FEE_PERCENTAGE;
     }
 
